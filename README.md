@@ -40,7 +40,7 @@ _(Add your screenshots in a `screenshots/` folder)_
 ## 📂 Folder Structure
 
 ```bash
-Tour-and-Traveling-Website/
+SIH_Website/
 ├── public/
 ├── src/
 │   ├── components/
