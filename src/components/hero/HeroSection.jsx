@@ -21,7 +21,7 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 flex flex-col text-white px-6 md:ps-44 pt-24 md:pt-32 text-left items-start">
-        <h2 className="text-lg md:text-2xl font-bold uppercase tracking-widest">
+        <h2 className="text-lg md:text-2xl py-4 font-bold uppercase tracking-widest">
           Tropical Island
         </h2>
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">

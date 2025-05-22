@@ -88,20 +88,20 @@ const Footer = () => {
                             <h3 className="text-2xl font-extrabold mb-3 text-[#244e8a]">Contact</h3>
                             <div className="flex items-center space-x-2 mb-4">
                                 <FaPhoneAlt className="text-white footer-icon p-2" />
-                                <p className="text-sm">0522 – 4072275 <br/> +91-7379248409</p>
+                                <p className="text-sm">+91-7054375826 <br/>+91-9519838720 </p>
                             </div>
                             <div className="flex items-center space-x-2 mt-2 mb-4">
                                 <FaEnvelope className="text-white footer-icon p-2" />
-                                <p className="text-sm">pravin@simplyindiaholidays.com <br/> info@simplyindiaholidays.com</p>
+                                <p className="text-sm">mohdateek.dev@gmail.com <br/> info@simplyindiaholidays.com</p>
                             </div>
                             <div className="flex items-center space-x-2 mt-2 mb-4">
                                 <FaMapMarkerAlt className="text-white footer-icon p-2" />
-                                <p className="text-sm">First Floor, 647/044, 60 Feet Rd,<br/> Abhishekpuram, Jankipuram, <br/>Lucknow-226021, Uttar Pradesh</p>
+                                <p className="text-sm">First Floor, 647/044, 60 Feet Rd,<br/> Abhishekpuram, Jankipuram, <br/>Lucknow-226010, Uttar Pradesh</p>
                             </div>
                             <div className="flex space-x-3 items-center justify-center mt-1 mb-0">
-                                <FaInstagram className="text-xl cursor-pointer bg-[#f14f3d] text-white icon-footer-social p-1 border-2 border-[#f14f3d]" />
-                                <FaFacebookF className="text-xl cursor-pointer bg-blue-500 text-white icon-footer-social p-1 border-2 border-blue-500" />
-                                <FaTwitter className="text-xl cursor-pointer bg-black text-white icon-footer-social p-1 border-2 border-black" />
+                               <a href="https://www.instagram.com/md_ateek09?igsh=ajZjNnFreWhwYWgx"> <FaInstagram className="text-xl cursor-pointer bg-[#f14f3d] text-white icon-footer-social p-1 border-2 border-[#f14f3d]" /></a>
+                             <a href="https://www.facebook.com/share/192oPcVNFH/">   <FaFacebookF className="text-xl cursor-pointer bg-blue-500 text-white icon-footer-social p-1 border-2 border-blue-500" /></a>
+                              <a href="https://x.com/md_Ateek09?t=d03tkdmtmo5cmjJTv0b4PA&s=09"> <FaTwitter className="text-xl cursor-pointer bg-black text-white icon-footer-social p-1 border-2 border-black" /></a>
                                 <FaYoutube className="text-xl cursor-pointer bg-red-600 text-white icon-footer-social p-1 border-2 border-red-600" />
                             </div>
                         </div>
