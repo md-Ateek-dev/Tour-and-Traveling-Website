@@ -13,7 +13,7 @@ import destination5 from '../../assets/destinations/img8.png';
 const HeroSection = () => {
   return (
     <div
-      className="relative w-full h-screen bg-cover bg-center"
+      className="relative w-full h-screen bg-cover bg-fill bg-center"
       style={{ backgroundImage: `url(${heroImg})` }}
     >
       {/* Overlay */}

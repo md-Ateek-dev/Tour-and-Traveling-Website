@@ -42,7 +42,7 @@ const OfferCarousel: React.FC = () => {
   ];
 
   return (
-    <div className="relative w-full mx-auto overflow-hidden shadow-xl h-[400px] md:h-[450px] lg:h-[500px]">
+    <div className="relative w-full mx-auto overflow-hidden shadow-xl h-[400px] sm:h-[420px] md:h-[450px] lg:h-[500px]">
       <Swiper
         slidesPerView={1}
         spaceBetween={20}
@@ -50,30 +50,28 @@ const OfferCarousel: React.FC = () => {
         autoplay={{ delay: 4000, disableOnInteraction: false }}
         modules={[Pagination, Autoplay]}
         loop={true}
-        className="relative w-full h-full"
+        className="w-full h-full"
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            {/* Slide Background Image */}
             <div
               className="absolute inset-0 bg-cover bg-center"
-              style={{ backgroundImage: `url(${slide.img})`,backgroundSize: "cover" }}
+              style={{ backgroundImage: `url(${slide.img})` }}
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 to-gray-700/40" />
+              <div className="absolute inset-0 bg-black/40" />
             </div>
 
-            {/* Slide Content */}
-            <div className="absolute inset-0 flex flex-col justify-center px-6 md:px-14 text-white text-left z-10">
-              <div className="border-l-4 border-l-yellow-400 ps-2">
-                <p className="text-xl font-semibold text-gray-50">South East Asia</p>
-                <h2 className="text-[40px] font-extrabold text-[#00aeef]">{slide.title}</h2>
+            <div className="absolute inset-0 flex flex-col justify-center items-start px-5 sm:px-10 md:px-16 text-white z-10">
+              <div className="border-l-4 border-yellow-400 pl-3">
+                <p className="text-base sm:text-lg md:text-xl font-medium">South East Asia</p>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold">{slide.title}</h2>
               </div>
-              <p className="text-lg pt-2 text-gray-300">{slide.subtitle}</p>
-              <p className="text-blue-400 font-semibold mt-2 text-xl">
+              <p className="text-sm sm:text-base md:text-lg mt-2 text-gray-300">{slide.subtitle}</p>
+              <p className="text-sm sm:text-base md:text-xl text-blue-400 font-semibold mt-2">
                 {slide.days} &bull; {slide.date} &bull; from{" "}
                 <span className="text-yellow-400">{slide.price}</span>
               </p>
-              <button className="px-8 py-3 bg-[#00aeef] mt-5 w-fit text-white text-xl font-bold rounded-2xl shadow-lg border-2 border-yellow-300 hover:bg-blue-900 transition-all">
+              <button className="mt-4 px-6 py-2 sm:px-8 sm:py-3 bg-[#00aeef] text-white font-semibold text-sm sm:text-base md:text-lg rounded-xl shadow-md border-2 border-yellow-300 hover:bg-blue-800 transition-all">
                 Book Now
               </button>
             </div>

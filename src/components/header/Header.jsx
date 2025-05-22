@@ -29,7 +29,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2">
-          <img src={headerLogo} alt="Logo" className="h-20" />
+          <img src={headerLogo} alt="Logo" className="h-16" />
         </Link>
 
         {/* Desktop Menu */}
