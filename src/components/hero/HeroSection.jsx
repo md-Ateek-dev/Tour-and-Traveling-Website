@@ -32,7 +32,7 @@ const HeroSection = () => {
         </p>
 
         <button className="mt-6 mb-3 px-6 py-3 w-fit bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg">
-          Read More
+          Explore More
         </button>
       </div>
 
@@ -50,19 +50,19 @@ const HeroSection = () => {
           modules={[Autoplay]}
         >
           <SwiperSlide>
-            <img src={destination1} className="rounded-xl w-full" alt="Beach" />
+            <img src={destination1} className="rounded-xl w-80" alt="Beach" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={destination2} className="rounded-xl w-full" alt="Island" />
+            <img src={destination2} className="rounded-xl w-80" alt="Island" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={destination3} className="rounded-xl w-full" alt="Travel" />
+            <img src={destination3} className="rounded-xl w-80" alt="Travel" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={destination4} className="rounded-xl w-full" alt="Travel" />
+            <img src={destination4} className="rounded-xl w-80" alt="Travel" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={destination5} className="rounded-xl w-full" alt="Travel" />
+            <img src={destination5} className="rounded-xl w-80" alt="Travel" />
           </SwiperSlide>
         </Swiper>
       </div>
